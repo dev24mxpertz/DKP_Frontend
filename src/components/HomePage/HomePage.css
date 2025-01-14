@@ -172,14 +172,14 @@
     top: 30%;
     left: 92%;
     transform: translate(-50%,-50%);
-    width: 300px;
+    width: 220px;
 }
 .HomeFeatures_content_div_blur2{
     position: absolute;
     top: 80%;
     left: 7%;
     transform: translate(-50%,-50%);
-    width: 150px;
+    width: 100px;
 }
 
 .HomeFeatures_content_left,
