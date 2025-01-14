@@ -6,7 +6,7 @@ import Customize from "../../assets/Images/Customize.png"
 import Auction from "../../assets/Images/Auction.png"
 import Transparecy from "../../assets/Images/Transparency.png"
 
-
+import Featuredimage2 from "../../assets/Images/Rightimage2.png";
 
 const HomeFeatures = () => {
   return (
@@ -91,7 +91,7 @@ const HomeFeatures = () => {
               className="HomeFeatures_content_right_image"
             />
             <img
-              src={Featuredimage1}
+              src={Featuredimage2}
               alt="Featuredimage1"
               className="HomeFeatures_content_right_image"
             />
