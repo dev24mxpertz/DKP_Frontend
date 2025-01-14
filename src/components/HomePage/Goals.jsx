@@ -1,9 +1,11 @@
 import React from "react";
 import Component from "../../assets/Images/Component2.png";
-import Component3 from "../../assets/Images/Component3.png"
+import Component3 from "../../assets/Images/Component3.png";
 import Component4 from "../../assets/Images/Component4.png";
-import Component5 from "../../assets/Images/Component5.png"
+import Component5 from "../../assets/Images/Component5.png";
 import boybannerimage from "../../assets/Images/boybanner.png";
+import section2blur1 from "../../assets/Images/section2blurimage1.png";
+
 
 const Goals = () => {
   return (
@@ -80,6 +82,16 @@ const Goals = () => {
           </div>
         </div>
       </div>
+      <img
+        className="HomeFeatures_content_div_blur1"
+        src={section2blur1}
+        alt="section2blur1"
+      />
+      <img
+        className="HomeFeatures_content_div_blur2"
+        src={section2blur1}
+        alt="section2blur1"
+      />
     </div>
   );
 };
