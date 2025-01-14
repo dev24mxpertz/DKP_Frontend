@@ -140,6 +140,10 @@
   display: flex;
   justify-content: center;
   padding: 20px;
+  background-image: url("../../assets/Images/Section2bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .HomeFeatures_h1 {
@@ -233,6 +237,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url("../../assets/Images/Section3bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .Goals_main_container {
@@ -257,7 +265,6 @@
   display: flex;
   align-items: stretch;
   justify-content: space-between;
-  background-color: white;
   position: relative;
   padding: 80px 30px;
 }
@@ -336,6 +343,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url("../../assets/Images/Section4bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .Members_main_container_div {
