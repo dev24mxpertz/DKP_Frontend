@@ -20,6 +20,7 @@
   justify-content: center;
   align-items: center;
   z-index: 999;
+  position: relative;
   /* background: #2f4f4f; */
 }
 
@@ -73,7 +74,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding: 10px 0px;
+  padding: 100px 0px;
 }
 
 .Banner_Main__content_div > h3 {
@@ -126,9 +127,13 @@
 }
 
 .Banner_Main__slider_div {
-  width: 60%;
+  width: 62%;
   height: 70vh;
-  background-color: yellow;
+  /* background-color: yellow; */
+  position: absolute;
+  top: 55%;
+  left: 68%;
+  transform: translate(-50%, -50%);
 }
 
 /* ------------------------------HomeFeatures_main_div */
@@ -167,21 +172,21 @@
   /* background-color: blue; */
 }
 
-.HomeFeatures_content_div_blur1{
-    position: absolute;
-    top: 30%;
-    left: 92%;
-    transform: translate(-50%,-50%);
-    width: 220px;
-      animation: moveUpAndDown 2s infinite ease-in-out;
+.HomeFeatures_content_div_blur1 {
+  position: absolute;
+  top: 30%;
+  left: 92%;
+  transform: translate(-50%, -50%);
+  width: 220px;
+  animation: moveUpAndDown 2s infinite ease-in-out;
 }
-.HomeFeatures_content_div_blur2{
-    position: absolute;
-    top: 80%;
-    left: 7%;
-    transform: translate(-50%,-50%);
-    width: 100px;
-      animation: moveUpAndDown 2s infinite ease-in-out;
+.HomeFeatures_content_div_blur2 {
+  position: absolute;
+  top: 80%;
+  left: 7%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  animation: moveUpAndDown 2s infinite ease-in-out;
 }
 
 @keyframes moveUpAndDown {
@@ -448,7 +453,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 120px 0px ;
+  padding: 120px 0px;
 }
 
 .Footer_main_div_cont {

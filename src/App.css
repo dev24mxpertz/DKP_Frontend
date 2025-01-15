@@ -14,3 +14,51 @@
   /* background-color: orange; */
   width: 100%;
 }
+
+.carousel {
+  width: 100%;
+  height: 100%;
+}
+.carousel-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100% !important;
+  height: 100%;
+}
+
+.carousel-row {
+  display: flex;
+  gap: 30px;
+  height: 90%;
+}
+
+.slider-image-div {
+  width: 30%;
+  height: auto;
+  transform: skewX(-20deg);
+  overflow: hidden;
+  /* background-color: red; */
+  position: relative;
+}
+
+.slider-image {
+  width: 170%; /* Adjust width to fit 3 items in a row */
+  height: 200%;
+  object-fit: cover;
+  transform: skewX(20deg);
+  position: absolute;
+}
+
+.slider-image-div:nth-child(1) {
+  margin-left: 120px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  display: none !important;
+}
+
+.carousel-inner {
+  height: 100%;
+}
